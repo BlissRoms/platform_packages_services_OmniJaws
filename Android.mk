@@ -23,4 +23,13 @@ LOCAL_PACKAGE_NAME := OmniJaws
 LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := system_current
 #LOCAL_DEX_PREOPT := false
+LOCAL_REQUIRED_MODULES := privapp_whitelist_org.omnirom.omnijaws-ext.xml
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := privapp_whitelist_org.omnirom.omnijaws-ext.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
