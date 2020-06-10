@@ -56,7 +56,6 @@
     <string name="omnijaws_service_init">Waiting...</string>
     <string name="omnijaws_service_progress">Updating...</string>
     <string name="omnijaws_service_disabled">Service disabled</string>
-    <string name="weather_widget">Weather</string>
     <string name="omnijaws_current_text">Now</string>
     <string name="show_background_title">Background shadow</string>
     <string name="weather_config_title">Service settings</string>
@@ -66,4 +65,6 @@
     <string name="owm_key">Custom OWM key</string>
     <string name="omnijaws_city_unkown">Unknown</string>
 
+    <string name="enable_events">Show upcoming calender events</string>
+    <string name="weather_widget">At a glance</string>
 </resources>
