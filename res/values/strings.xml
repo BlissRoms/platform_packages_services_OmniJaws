@@ -67,4 +67,6 @@
 
     <string name="enable_events">Show upcoming calender events</string>
     <string name="weather_widget">At a glance</string>
+    <string name="show_greeting">Show greetings</string>
+    <string name="show_greeting_summary">Display contextual, personal greetings</string>
 </resources>
