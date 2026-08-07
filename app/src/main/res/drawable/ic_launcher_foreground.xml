@@ -4,35 +4,24 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <group>
-        <clip-path android:pathData="M0,0h108v108h-108z"/>
+    <group
+        android:translateX="18"
+        android:translateY="18"
+        android:scaleX="1.44"
+        android:scaleY="1.44">
+        
+        <path
+            android:pathData="M26,20.5 a8.5,8.5 0,1,0 -17,0 a8.5,8.5 0,1,0 17,0"
+            android:fillColor="#FFCC00"/>
 
         <path
-            android:pathData="M74,62 Q86,54 74,46 Q77,32 62,34 Q54,22 46,34 Q32,32 34,46 Q22,54 34,62 Q32,76 46,74 Q54,86 62,74 Q77,76 74,62Z">
-            <aapt:attr name="android:fillColor">
-                <gradient
-                    android:type="linear"
-                    android:startX="54"
-                    android:startY="22"
-                    android:endX="54"
-                    android:endY="86">
-                    <item android:offset="0" android:color="#FFFFF59D"/>
-                    <item android:offset="0.3" android:color="#FFFFE082"/>
-                    <item android:offset="0.65" android:color="#FFFFCC80"/>
-                    <item android:offset="1" android:color="#FFFFAB91"/>
-                </gradient>
-            </aapt:attr>
-        </path>
-
-        <path
-            android:pathData="M64,75 C61,75 59,73 59,71 C59,68 61,66 63,66 C64,63 66,61 69,61 C73,61 75,64 75,66 C78,66 80,68 80,71 C80,73 78,75 75,75Z"
+            android:pathData="M16.75 23.8L16.7836 23.8001C16.7614 23.5585 16.75 23.3139 16.75 23.0667C16.75 18.6116 20.4436 15 25 15C29.3151 15 32.8565 18.2393 33.2194 22.3666C37.024 22.7206 40 25.8538 40 29.6667C40 33.7167 36.6421 37 32.5 37H16.75C13.022 37 10 34.0451 10 30.4C10 26.7549 13.022 23.8 16.75 23.8Z"
             android:fillColor="#FFFFFF"/>
-
     </group>
+
 </vector>
